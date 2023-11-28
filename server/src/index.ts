@@ -42,7 +42,7 @@ app.get('/search', async (req: Request, res: Response) => {
     return res.status(400).json({ error: 'Invalid number format' });
   }
 
-  await delay(0);
+  await delay(5000);
 
   const filteredData = data.filter(
     (item: IData) =>
