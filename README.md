@@ -8,6 +8,6 @@
 
 ## Запуск клиентского приложения
 
-1. Зайти в папку /server `cd /client`
+1. Зайти в папку /client `cd /client`
 2. Запуск приложения `yarn start` или `npm run start`
 
